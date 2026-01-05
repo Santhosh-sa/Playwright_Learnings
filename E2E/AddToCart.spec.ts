@@ -7,4 +7,5 @@ test('Add To Cart Functionality', async({page})=>{
     await page.fill('#user-name', 'standard_user');
     await page.fill('#password', 'secret_sauce');
     await page.click('#login-button');*/
+    console.log('Login step is skipped for demo purposes');
 })
