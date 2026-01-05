@@ -10,6 +10,7 @@ test('File Download', async({page}) => {
         page.waitForEvent('download'),
         page.click('#link-to-download')
     ])
+    
 
    /* const path = await download[0].path();
     console.log('Downloaded file path: '+path); */
